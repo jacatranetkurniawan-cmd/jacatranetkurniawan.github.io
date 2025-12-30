@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio Photographer Sport</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #111;
+            color: #eee;
+        }
+        header {
+            padding: 20px 40px;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        nav a {
+            color: #eee;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #aaa;
+        }
+        section {
+            padding: 60px 40px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+        }
+        .card a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .booking a {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 12px 20px;
+            border: 1px solid #fff;
+            color: #fff;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #333;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>YOUR NAME</h1>
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#sport">Olahraga</a>
+        <a href="#event">Foto Event</a>
+        <a href="#booking">Booking</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Tentang Saya</h2>
+    <p>
+        Photographer olahraga yang fokus menangkap momen, emosi, dan dinamika pertandingan.
+    </p>
+</section>
+
+<section id="sport">
+    <h2>Olahraga</h2>
+    <div class="grid">
+        <div class="card"><a href="#">Sepak Bola</a></div>
+        <div class="card"><a href="#">Futsal</a></div>
+        <div class="card"><a href="#">Basket</a></div>
+        <div class="card"><a href="#">Hockey</a></div>
+        <div class="card"><a href="#">Padel</a></div>
+        <div class="card"><a href="#">Tenis</a></div>
+        <div class="card"><a href="#">Golf</a></div>
+    </div>
+</section>
+
+<section id="event">
+    <h2>Foto Event</h2>
+    <div class="grid">
+        <div class="card">Event Liga A</div>
+        <div class="card">Turnamen Futsal B</div>
+        <div class="card">Kejuaraan Basket C</div>
+    </div>
+</section>
+
+<section id="booking" class="booking">
+    <h2>Booking</h2>
+    <a href="https://instagram.com/USERNAME" target="_blank">Instagram</a>
+    <a href="https://wa.me/628XXXXXXXXX" target="_blank">WhatsApp</a>
+</section>
+
+<footer>
+    © 2025 Your Name — Sport Photographer
+</footer>
+
+</body>
+</html>
 
